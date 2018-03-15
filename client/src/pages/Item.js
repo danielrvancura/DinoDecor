@@ -1,5 +1,10 @@
 import React from 'react';
 
+let location = window.location.href;
+console.log('location: ' + location);
+let index = parseInt(location.substr(27)) - 1;
+console.log('index: ' + index);
+
 const Item = (props) => {
     return (
         <div className='container'>
@@ -8,11 +13,10 @@ const Item = (props) => {
                     <h1>This is placeholder content asdfasdfasdf</h1>   
                 </div>
                 <div className='col-md-7'>
-                    <h1>A Study in Bison</h1>
-                    <h3>by Sam Caveman</h3>
-                    <h2>Price: $156,000,000</h2>
+                    <h1>{props.allArt[index].name}</h1>
+                    <h3>by {props.allArt[index].artist}</h3>
+                    <h2>Price: {props.allArt[index].price}</h2>
                     <button className='btn btn-primary'>Add to Cart</button>
-                    <button className='btn btn-primary'>Favorite</button>
                 </div>
             </div>
             <div className="row">

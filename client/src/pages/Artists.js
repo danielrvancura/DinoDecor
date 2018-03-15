@@ -42,6 +42,7 @@ const Artists = () => {
             </p>
             </div>
             </div>
+<<<<<<< HEAD
             <div class="row">
             <div class="col xs">
             <h3>Leonardo Di Caveman</h3>
@@ -81,6 +82,8 @@ const Artists = () => {
 
 
 
+=======
+>>>>>>> c4a40e309d4a71f17465efc5141ff7dd4eb1a35a
         </div>
     )
 }
