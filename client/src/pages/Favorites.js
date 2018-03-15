@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Movie = () => {
+const Favorites = () => {
     return (
         <div className='container'>
             <h1>My Favorite Movie</h1>
@@ -9,4 +9,4 @@ const Movie = () => {
     )
 }
 
-export default Movie;
+export default Favorites;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class About extends Component {
+class Cart extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -23,7 +23,7 @@ class About extends Component {
             })
             .then((response) => {
                 console.log(response);
-                this.setState({ 
+                this.setState({
                     city: response.name,
                     weather: response.weather[0].main,
                     temperature: response.main.temp,
@@ -36,12 +36,12 @@ class About extends Component {
             });
     }
 
-    componentDidMount() { 
+    componentDidMount() {
         this.weatherChecker(null, 98107);
     }
 
     render () {
-        
+
         return (
             <div className='container'>
                 <h1>About Me</h1>
@@ -64,4 +64,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default Cart;

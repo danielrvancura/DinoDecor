@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Home from './pages/Home';
-import Blog from './pages/Blog';
-import Movie from './pages/Movie';
-import Food from './pages/Food';
-import About from './pages/About';
+import Favorites from './pages/Favorites';
+import Artists from './pages/Artists';
+import Cart from './pages/Cart';
 import {
   BrowserRouter as Router,
   Route,
@@ -11,20 +10,6 @@ import {
 } from 'react-router-dom';
 import './App.css';
 
-var postData = {
-    title: 'Dinosaurs are awesome',
-    allAuthors: [
-        'Stealthy Stegosaurus',
-        'Tiny T-rex',
-        'Igunadon Ivory'
-    ],
-    body: 'Check out this body property!',
-    comments: [
-        'First!',
-        'Great post',
-        'Hire this author now!'
-    ]
-}
 
 class App extends Component {
     render() {
@@ -33,16 +18,14 @@ class App extends Component {
                 <div>
                     <nav>
                         <Link to="/">Home</Link>
-                        <Link to="/blog">Blog</Link>
-                        <Link to="/movie">Favorite Movie</Link>
-                        <Link to="/food">Favorite Food</Link>
-                        <Link to="/about">About Me</Link>
+                        <Link to="/favorites">Favorites</Link>
+                        <Link to="/artists">Artists</Link>
+                        <Link to="/cart">Cart</Link>
                     </nav>
                     <Route exact path="/" component={Home} />
-                    <Route path="/blog" component={ () => <Blog postData={postData} /> } />
-                    <Route path="/movie" component={Movie} />
-                    <Route path="/food" component={Food} />
-                    <Route path="/about" component={About} />
+                    <Route path="/favorites" component={Favorites} />
+                    <Route path="/artists" component={Artists} />
+                    <Route path="/cart" component={Cart} />
                 </div>
             </Router>
         )
