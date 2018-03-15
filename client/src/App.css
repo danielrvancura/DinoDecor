@@ -8,78 +8,40 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  background-color: #7aba68;
+  justify-content: flex-end;
+  background-color: #4286f4;
   padding: 20px 0;
 }
 
 nav a {
   text-decoration: none;
   color: white;
+  margin: 0 40px;
+}
+
+nav a:hover {
+  text-decoration: none;
 }
 
 nav a:active {
-  
+  text-decoration: none;
 }
 
 .container {
-  width: 90%;
-  margin: 2.5% auto;
+  width: 100%;
   padding: 2.5%;
   background-color: white;
   border-radius: 5px;
+}
+
+.carousel {
+  padding: 0;
 }
 
 .carousel-inner .item {
   width: 100%;
 }
 
-.weather-container {
-  background: url('https://thumbs.dreamstime.com/b/weather-background-doodle-seamless-texture-illustration-symbols-collection-suns-clouds-storms-snow-34246151.jpg');
-  padding: 2.5%;
-  border-radius: 5px;
-  margin-top: 2.5%;
-  width: 40%;
-  border: 1px solid black;
+#featured-artist {
+  padding: 0 2.5%;
 }
-
-.inner-weather {
-  text-align: center;
-  width:30%;
-  margin: auto;
-  border-radius: 5px;
-  background: white;
-  padding: 2.5%;
-  border: 1px solid black;
-}
-
-.title {
-  color: purple;
-  transition: transform 1s, filter 1s;
-}
-
-.title:hover {
-  transform: scale(.5);
-  filter: blur(5px);
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-

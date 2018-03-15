@@ -3,8 +3,7 @@ import React from 'react';
 const Artists = () => {
     return (
         <div className='container'>
-            <h1>My Favorite Food</h1>
-            <p>Would have to be Steak. Cliche, I know.</p>
+            <h1>Artists</h1>
         </div>
     )
 }
