@@ -4,6 +4,7 @@ import caveman1 from '../images/cavemen/caveman1.jpg';
 const Artists = () => {
     return (
         <div className='container'>
+<<<<<<< HEAD
             <h1>Featured Artists</h1>
             <div class="row">
             <div class="col-sm-4">
@@ -19,6 +20,9 @@ const Artists = () => {
             </p>
             </div>
             </div>
+=======
+            <h1>Artists</h1>
+>>>>>>> e50a6f6de97d6df75b8aa46c193af441c9258340
         </div>
     )
 }
