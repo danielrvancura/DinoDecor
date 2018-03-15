@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Favorites from './pages/Favorites';
 import Artists from './pages/Artists';
 import Cart from './pages/Cart';
+import Item from './pages/Item';
 import {
   BrowserRouter as Router,
   Route,
@@ -26,6 +27,7 @@ class App extends Component {
                     <Route path="/favorites" component={Favorites} />
                     <Route path="/artists" component={Artists} />
                     <Route path="/cart" component={Cart} />
+                    <Route path="/item" component={Item} />
                 </div>
             </Router>
         )
