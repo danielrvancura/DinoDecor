@@ -58,6 +58,7 @@ class Home extends Component {
                 <h1>This is my homepage</h1>
                 <h2>My favorite Shakespeare poem:</h2>
                 <p>{poetry}</p>
+                <button className="btn btn-primary">Button</button>
             </div>
         )
         
