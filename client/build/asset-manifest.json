@@ -1,14 +1,10 @@
 {
-<<<<<<< HEAD
-  "main.css": "static/css/main.93ffea01.css",
-  "main.css.map": "static/css/main.93ffea01.css.map",
-  "main.js": "static/js/main.10710dbc.js",
-  "main.js.map": "static/js/main.10710dbc.js.map",
-  "static/media/caveman1.jpg": "static/media/caveman1.4be6f3dd.jpg"
-=======
-  "main.css": "static/css/main.64db1d36.css",
-  "main.css.map": "static/css/main.64db1d36.css.map",
-  "main.js": "static/js/main.23631c6a.js",
-  "main.js.map": "static/js/main.23631c6a.js.map"
->>>>>>> e50a6f6de97d6df75b8aa46c193af441c9258340
+  "main.css": "static/css/main.e70657e2.css",
+  "main.css.map": "static/css/main.e70657e2.css.map",
+  "main.js": "static/js/main.91fc967a.js",
+  "main.js.map": "static/js/main.91fc967a.js.map",
+  "static/media/caveman1.jpg": "static/media/caveman1.4be6f3dd.jpg",
+  "static/media/caveman2.jpg": "static/media/caveman2.1c215467.jpg",
+  "static/media/cavewoman1.jpg": "static/media/cavewoman1.52275c65.jpg",
+  "static/media/cavewoman2.jpg": "static/media/cavewoman2.7cb0c78d.jpg"
 }
