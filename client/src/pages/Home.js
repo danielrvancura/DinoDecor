@@ -14,6 +14,10 @@ class Home extends Component {
         return (
             <div className='container'>
                 <Carousel />
+                <hr>
+                <div>
+                    <h1>Featured Artist: Sam Caveman</h1>
+                </div>
             </div>
         )
     }
