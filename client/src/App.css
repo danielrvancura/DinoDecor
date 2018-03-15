@@ -30,6 +30,10 @@ nav a:active {
   border-radius: 5px;
 }
 
+.carousel-inner .item {
+  width: 100%;
+}
+
 .weather-container {
   background: url('https://thumbs.dreamstime.com/b/weather-background-doodle-seamless-texture-illustration-symbols-collection-suns-clouds-storms-snow-34246151.jpg');
   padding: 2.5%;
@@ -79,7 +83,3 @@ nav a:active {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
